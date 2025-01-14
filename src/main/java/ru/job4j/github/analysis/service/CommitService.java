@@ -14,7 +14,6 @@ import java.util.List;
 public class CommitService {
 
     private CommitRepository commitRepository;
-    private GitHubService gitHubService;
 
     @Async
     public void create(Commit commit) {
